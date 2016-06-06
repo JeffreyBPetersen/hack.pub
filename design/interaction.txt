@@ -1,0 +1,23 @@
+Provided entrance scenario:
+
+You open a link to hack.pub
+You're presented with a list of results
+  Blue links that lead offsite
+  Green links that display new content onsite
+    By default they add their content on to what is already shown
+    They show up with an "enter" button/icon that shows only their content if clicked
+  White text-only results that do nothing special
+  Each result has its source listed next to it
+    Clicking a source takes you to its root content
+    Shows as "multiple" if the same result was received from multiple sources
+      Clicking "multiple" shows all copies of the result from different sources
+  Each result has its weight listed next to it as a % of all visible results
+A "wander" button is shown above the results
+  Clicking it begins automatic clicking of green links
+  When clicked it is replaced with a "pause" button
+    Clicking it turns off automatic clicking of green links
+Options are available at the bottom of the page
+  "show advanced results"
+    Results are normally simplified to not include detailed handling info, this toggles that
+  "home"
+    An entrance to automatically load when opening hack.pub without one included in the url

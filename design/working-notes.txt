@@ -1,0 +1,4 @@
+support for showing identifiers with weight from multiple sources
+  modify getOrderedCurrentContent to return sources and how much weight they each contributed to an entry
+    implies changes to renderResultHtml as well
+things described in interaction.txt need to be added

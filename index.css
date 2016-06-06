@@ -53,6 +53,16 @@ input:focus {
   border-color: #0B0;
 }
 
+table, td {
+  border-collapse: collapse;
+  border-color: #333;
+  border-style: solid;
+  border-left-style: none;
+  border-right-style: none;
+  border-width: 1px;
+  padding: 0.375em;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color: #777;
 }
@@ -60,6 +70,12 @@ input:focus {
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: #777;
   opacity: 1;
+}
+
+.source {
+  color: #0B0;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 #display {
